@@ -1,3 +1,4 @@
+function Button(){
 var x1=Math.random()*5+1;
 x1=Math.round(x1);
 var x2=Math.random()*5+1;
@@ -12,4 +13,5 @@ else if (x1<x2) {
 }
 else {
   document.querySelector(".container h1").innerHTML ="It is A Draw";
+}
 }
